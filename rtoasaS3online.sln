@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rtoasaS3online", "rtoasaS3online.csproj", "{BBB70CE1-2F92-4E4C-A727-28D49D4EA365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB70CE1-2F92-4E4C-A727-28D49D4EA365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB70CE1-2F92-4E4C-A727-28D49D4EA365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB70CE1-2F92-4E4C-A727-28D49D4EA365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB70CE1-2F92-4E4C-A727-28D49D4EA365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E38E324-4B70-4F96-B246-4A789A636D0C}
+	EndGlobalSection
+EndGlobal

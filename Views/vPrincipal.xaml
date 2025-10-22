@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rtoasaS3online.Views.vPrincipal"
+             Title="vPrincipal">
+    <VerticalStackLayout>
+        <Label 
+            Text="Ventana Principal:Recibir datos desde login"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <!--CREAR OBJETOS PARA RECIBIR LOS DATOS-->
+        <Label x:Name="txtUsuario"
+               FontSize="18"
+               TextColor="Blue"/>
+        <Label x:Name="txtContrasena"
+               FontSize="18"
+               TextColor="Blue"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

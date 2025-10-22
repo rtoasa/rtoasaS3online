@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rtoasaS3online.Views.vLogin"
+             Title="vLogin">
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="30">
+        <Label 
+            Text="Login: Semana 3"
+            FontSize="18"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry x:Name="txtUsuario"
+               Placeholder="Ingresa el usuario"/>
+        <Entry x:Name="txtContrasena"
+               IsPassword="True"
+               Placeholder="Ingresa la contrasena"/>
+        <Button x:Name="btnIniciarSesion"
+                Text="Iniciar sesion"
+                Clicked="btnIniciarSesion_Clicked"/>
+        <Button x:Name="btnRegistro"
+                Text="Registrar"
+                Clicked="btnRegistro_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
