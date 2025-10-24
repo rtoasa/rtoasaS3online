@@ -3,25 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="rtoasaS3online.Views.vLogin"
              Title="vLogin">
+    <!--ESTILOS EXPLICITOS-->
+    <ContentPage.Resources>
+        <Style x:Key="EstiloLabel" TargetType="Label">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="TextColor" Value="Red"/>
+
+        </Style>
+
+        <Style x:Key="EstiloEntry" TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="Beige"/>
+        </Style>
+    </ContentPage.Resources>
+
     <VerticalStackLayout
         Padding="30"
         Spacing="30">
         <Label 
+            Style="{StaticResource EstiloLabel}"
             Text="Login: Semana 3"
             FontSize="18"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Entry x:Name="txtUsuario"
+               Style="{StaticResource EstiloEntry}"
                Placeholder="Ingresa el usuario"/>
         <Entry x:Name="txtContrasena"
+                  Style="{StaticResource EstiloEntry}"
                IsPassword="True"
                Placeholder="Ingresa la contrasena"/>
         <Button x:Name="btnIniciarSesion"
+                Style="{StaticResource globalButton}"
                 Text="Iniciar sesion"
                 Clicked="btnIniciarSesion_Clicked"/>
         <Button x:Name="btnRegistro"
                 Text="Registrar"
+                Style="{StaticResource globalButton}"
                 Clicked="btnRegistro_Clicked"/>
 
     </VerticalStackLayout>
